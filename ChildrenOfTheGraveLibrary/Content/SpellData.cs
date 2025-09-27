@@ -274,11 +274,9 @@ namespace ChildrenOfTheGrave.ChildrenOfTheGraveServer.Content
         {
         }
 
-        public SpellData(string file)
+        public SpellData(string name, string file)
         {
-            string name = file;
-
-            RFile? f = Cache.GetFile($"{ContentManager.SpellsPath}/{name}.ini");
+            RFile? f = Cache.GetFile(file);
             if (f is null)
             {
                 return;

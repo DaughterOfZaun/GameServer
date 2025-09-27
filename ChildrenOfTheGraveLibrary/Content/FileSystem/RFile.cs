@@ -79,13 +79,9 @@ public class RFile
             mHashMaps.Add([]);
         }
 
-        BinaryCached = TryToLoadBinaryFileV2(path);
-        if (!BinaryCached)
-        {
-            BinaryIsDefault = BinaryCached = TryToLoadBinaryFileV2(path);
-        }
+        BinaryIsDefault &= BinaryCached = TryToLoadBinaryFileV2(path);
         ModifiedTime = new FileInfo(MainFileName).LastWriteTime.Ticks;
-        TextFileExists = TryToLoadTextFile(defaultsPath, 0) || TryToLoadTextFile(path, 1);
+        TextFileExists = TryToLoadTextFile(path, 1) || TryToLoadTextFile(defaultsPath, 0);
 
         mRelativePath = defaultsPath;
         mRelativeDefaultPath = path;

@@ -116,9 +116,9 @@ public class CharData
     {
     }
 
-    public CharData(string name)
+    public CharData(string name, string filePath)
     {
-        RFile? file = Cache.GetFile($"{ContentManager.CharactersPath}/{name}/{name}.ini");
+        RFile? file = Cache.GetFile(filePath);
         if (file is null)
         {
             return;

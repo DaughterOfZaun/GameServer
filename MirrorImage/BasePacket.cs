@@ -47,7 +47,7 @@ namespace MirrorImage
        public static string GetVersioning()
         {
           //  string filePath = @"..\ChildrenOfTheGraveServerConsole\bin\Debug\net9.0\Settings\GameInfo.json"; // Remplacez par le chemin de votre fichier JSON
-             string filePath = @".\Settings\GameInfo.json";
+            string filePath = @"./Settings/GameInfo.json";
             if (!File.Exists(filePath))
             {
                 string ClientVersion = "1.0.0.126";

@@ -309,7 +309,7 @@ internal class ContentManager
         ScenePath = Path.Join(MapPath, ScenePath);
         EncounterPath = Path.Join(MapPath, EncounterPath);
         MutatorPath = Path.Join(EncounterPath, MutatorPath);
-        MapConfig = Cache.GetFile(Path.Join(ScenePath, "CFG/ObjectCFG.cfg"));
+        MapConfig = Cache.GetFile($"{ScenePath}/CFG/ObjectCFG.cfg");
 
         LocationPath = MapPath;
 
@@ -407,50 +407,47 @@ internal class ContentManager
         Parallel.ForEach(Directory.EnumerateFiles(SpellsPath, "*", SearchOption.AllDirectories),
             file =>
             {
-                if (!file.EndsWith(".ini", StringComparison.OrdinalIgnoreCase) &&
-                    !file.EndsWith(".inibin", StringComparison.OrdinalIgnoreCase))
+                if (file.EndsWith(".ini", StringComparison.OrdinalIgnoreCase) ||
+                    file.EndsWith(".inibin", StringComparison.OrdinalIgnoreCase))
                 {
-                    return;
+                    ProcessSpellFile(file.Replace(".inibin", ".ini"));
                 }
-                ProcessSpellFile(Path.GetFileNameWithoutExtension(file));
             });
 
 
         _logger.Info("Loading Item Data...");
         Parallel.ForEach(Directory.EnumerateFiles(ItemsPath, "*"), (file) =>
         {
-            if (!file.EndsWith(".ini", StringComparison.OrdinalIgnoreCase) &&
-                !file.EndsWith(".inibin", StringComparison.OrdinalIgnoreCase))
+            if (file.EndsWith(".ini", StringComparison.OrdinalIgnoreCase) ||
+                file.EndsWith(".inibin", StringComparison.OrdinalIgnoreCase))
             {
-                return;
-            }
-
-            string fileName = Path.GetFileNameWithoutExtension(file);
-            if (!int.TryParse(fileName, out _))
-            {
-                return;
-            }
-
-            ItemData data = new(fileName);
-            lock (ItemsData)
-            {
-                ItemsData.TryAdd(data.Id, data);
+                string fileName = Path.GetFileNameWithoutExtension(file);
+                if (int.TryParse(fileName, out int parsedId))
+                {
+                    ItemData data = new(parsedId, file.Replace(".inibin", ".ini"));
+                    lock (ItemsData)
+                    {
+                        ItemsData.TryAdd(data.Id, data);
+                    }
+                }
             }
         });
 
         _logger.Info("Loading Talent Data...");
-        Parallel.ForEach(Directory.EnumerateFiles(TalentsPath, "*.ini"), (file) =>
+        Parallel.ForEach(Directory.EnumerateFiles(TalentsPath, "*"), (file) =>
         {
-            string fileName = Path.GetFileNameWithoutExtension(file);
-            if (!int.TryParse(fileName, out _))
+            if (file.EndsWith(".ini", StringComparison.OrdinalIgnoreCase) ||
+                file.EndsWith(".inibin", StringComparison.OrdinalIgnoreCase))
             {
-                return;
-            }
-
-            TalentData data = new(file);
-            lock (TalentsData)
-            {
-                TalentsData.TryAdd(data.Id, data);
+                string fileName = Path.GetFileNameWithoutExtension(file);
+                if (int.TryParse(fileName, out int parsedId))
+                {
+                    TalentData data = new(fileName, file.Replace(".inibin", ".ini"));
+                    lock (TalentsData)
+                    {
+                        TalentsData.TryAdd(data.Id, data);
+                    }
+                }
             }
         });
 
@@ -464,14 +461,11 @@ internal class ContentManager
         _logger.Info("Loading Particles...");
         Parallel.ForEach(Directory.EnumerateFiles(ParticlesPath, "*"), (file) =>
         {
-            if (!file.EndsWith(".troy", StringComparison.OrdinalIgnoreCase) &&
-                !file.EndsWith(".troybin", StringComparison.OrdinalIgnoreCase))
+            if (file.EndsWith(".troy", StringComparison.OrdinalIgnoreCase) ||
+                file.EndsWith(".troybin", StringComparison.OrdinalIgnoreCase))
             {
-                return;
+                ProcessParticleFile(file.Replace(".troybin", ".troy"), "", -1);
             }
-            string fileName = Path.GetFileNameWithoutExtension(file);
-
-            ProcessParticleFile(fileName, "", -1);
         });
 
         // ============================================================================
@@ -493,25 +487,26 @@ internal class ContentManager
     {
         // Loads Character.ini -> Spells folder -> Skins\Particles folder
         // Load Character ini
-        var characterName = Path.GetFileName(characterPath).ToLowerInvariant();
+        var dirName = Path.GetFileName(characterPath);
 
         // Rechercher les fichiers dans characterPath, et uniquement ceux qui se terminent par ".ini", sans tenir compte de la casse
         Parallel.ForEach(Directory.EnumerateFiles(characterPath), (file) =>
         {
-            string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(file).ToLowerInvariant();
+            string fileName = Path.GetFileNameWithoutExtension(file);
 
             // Comparer les noms de fichiers sans tenir compte de la casse et s'assurer que l'extension est .ini
-            if (!string.Equals(fileNameWithoutExtension, characterName, StringComparison.OrdinalIgnoreCase) ||
-                (!file.EndsWith(".ini", StringComparison.OrdinalIgnoreCase) &&
-                !file.EndsWith(".inibin", StringComparison.OrdinalIgnoreCase)))
-            {
-                return;
-            }
-
-            var data = new CharData(fileNameWithoutExtension);
-            lock (CharactersData)
-            {
-                CharactersData.TryAdd(fileNameWithoutExtension, data);
+            if (
+                string.Equals(fileName, dirName, StringComparison.OrdinalIgnoreCase) && (
+                    file.EndsWith(".ini", StringComparison.OrdinalIgnoreCase) ||
+                    file.EndsWith(".inibin", StringComparison.OrdinalIgnoreCase
+                ))
+            ){
+                var data = new CharData(dirName, file.Replace(".inibin", ".ini"));
+                lock (CharactersData)
+                {
+                    fileName = fileName.ToLowerInvariant();
+                    CharactersData.TryAdd(fileName, data);
+                }
             }
         });
 
@@ -563,7 +558,7 @@ internal class ContentManager
 
             foreach (var file in Directory.EnumerateFiles(skinDir, "*.troy"))
             {
-                ProcessParticleFile(file, characterName, skinId);
+                ProcessParticleFile(file, dirName, skinId);
             }
 
             string partDirPath = Path.Join(skinDir, "Particles");
@@ -574,7 +569,7 @@ internal class ContentManager
 
             foreach (string file in Directory.EnumerateFiles(partDirPath, "*.troy"))
             {
-                ProcessParticleFile(file, characterName, skinId);
+                ProcessParticleFile(file, dirName, skinId);
             }
         });
     }
@@ -586,16 +581,14 @@ internal class ContentManager
     /// Parses the Spell .ini file for spell info,
     /// </summary>
     /// <param name="file"></param>
-    private static void ProcessSpellFile(string file)
+    private static void ProcessSpellFile(string filePath)
     {
-        string name = Path.GetFileNameWithoutExtension(file);
+        string name = Path.GetFileNameWithoutExtension(filePath);
 
-        SpellData data = new(name);
+        SpellData data = new(name, filePath);
+        //SpellFlagsMarker.SwitchFlagsIfNeeded(data); // 126Fix
 
         name = name.ToLowerInvariant();
-        // 126Fix
-        //SpellFlagsMarker.SwitchFlagsIfNeeded(data);
-
         if (!SpellsData.ContainsKey(name))
         {
             lock (SpellsData)
@@ -613,9 +606,7 @@ internal class ContentManager
     /// <param name="skin"></param>
     private static void ProcessParticleFile(string file, string model, int skin)
     {
-        RFile? contentFile = Cache.GetFile($"{ParticlesPath}/{file}.troy");
-        var fileName = Path.GetFileNameWithoutExtension(file).ToLowerInvariant() + ".troy";
-
+        RFile? contentFile = Cache.GetFile(file);
         if (contentFile is null)
         {
             return;
@@ -656,7 +647,7 @@ internal class ContentManager
                 }
             }
 
-            string name = Path.GetFileNameWithoutExtension(fileName);
+            string name = Path.GetFileNameWithoutExtension(file).ToLowerInvariant();
             lock (ParticlesData)
             {
 
@@ -1397,7 +1388,7 @@ internal class ContentManager
     /// <returns></returns>
     internal static ParticleData? GetParticleData(string name, params GameObject[] characters)
     {
-        if (!ParticlesData.TryGetValue(name.ToLower(), out var list) || list.Count <= 0)
+        if (!ParticlesData.TryGetValue(name.ToLowerInvariant(), out var list) || list.Count <= 0)
         {
             return null;
         }
@@ -1444,7 +1435,7 @@ internal class ContentManager
     /// <returns></returns>
     internal static TalentData? GetTalentData(string id)
     {
-        if (TalentsData.TryGetValue(id, out var data))
+        if (TalentsData.TryGetValue(id.ToLowerInvariant(), out var data))
         {
             return data;
         }

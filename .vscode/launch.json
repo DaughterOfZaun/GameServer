@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: GameServer Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/ChildrenOfTheGraveServerConsole/ChildrenOfTheGraveServerConsole.csproj"
+        }
+    ]
+}

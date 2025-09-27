@@ -8,8 +8,8 @@ namespace ChildrenOfTheGrave.ChildrenOfTheGraveServer.Inventory
     public class ItemData : StatsModifier
     {
         // Meta
-        public int Id { get; init; }
-        public string Name { get; init; }
+        public int Id { get; init; } = -1;
+        public string Name { get; init; } = "";
 
         // General
         public int MaxStacks { get; init; }
@@ -28,20 +28,12 @@ namespace ChildrenOfTheGrave.ChildrenOfTheGraveServer.Inventory
 
         public bool ClearUndoHistoryOnActivate { get; init; }
 
-        public ItemData(string itemName)
+        public ItemData(int id, string filePath)
         {
-            RFile? file = Cache.GetFile($"{ContentManager.ItemsPath}/{itemName}.ini");
-            if (file is null)
-            {
-                Name = "";
-                Id = -1;
+            RFile? file = Cache.GetFile(filePath);
+            if (file is null) return;
 
-                return;
-            }
-
-            string name = Path.GetFileNameWithoutExtension(file.MainFileName);
-            Name = name;
-            Id = int.Parse(name);
+            Name = (Id = id).ToString();
 
             MaxStacks = file.GetValue("Data", "MaxStack", 1);
             Price = file.GetValue("Data", "Price", 0);
