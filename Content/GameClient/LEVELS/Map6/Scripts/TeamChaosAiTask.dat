@@ -1,0 +1,19 @@
+#########################################################################################################################################
+; start a line with a semicolon for a comment
+# start a line with a # for a comment
+#########################################################################################################################################
+#########################################################################################################################################
+[ Task Topic name ]		[ Task XML File name ]	     [ Task Logic File name ]	      [ Task base Priority ]   [ Task Actions ]
+#########################################################################################################################################
+<CLASSIC,TUTORIAL> # GAME MODE
+#_______________________________
+{MATCHED_GAME,TUTORIAL_GAME,PRACTICE_GAME} # GAME TYPE
+
+PUSHLANE			PushTask.xml			PushTaskBehaviorTrees.xml			2		{MOVE, ATTACK}
+GOTO    			SupportTask.xml			SupportTaskBehaviorTrees.xml		10		{MOVE}
+DEFEND 				DefendTask.xml			DefendTaskBehaviorTrees.xml			15		{ATTACK}
+SUPPORT 			SupportTask.xml			SupportTaskBehaviorTrees.xml		10		{ATTACK}
+KILL 			    SupportTask.xml			SupportTaskBehaviorTrees.xml		10		{ATTACK}
+WAIT 			    SupportTask.xml			SupportTaskBehaviorTrees.xml		10		{ATTACK}
+
+#########################################################################################################################################

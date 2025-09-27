@@ -1,0 +1,23 @@
+# Build artifacts
+bin/
+obj/
+
+# Binary data
+*.inibin
+*.inibin.re
+*.troybin
+*.SCB
+*.aimesh
+*.aimesh_ngrid
+*.luaobj
+*.cfgbin
+*.mob
+
+# Images
+*.dds
+*.bmp
+
+# Archives
+*.zip
+*.rar
+*.7z

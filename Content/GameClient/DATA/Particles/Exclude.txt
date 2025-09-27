@@ -1,0 +1,105 @@
+Gruesomedeath.troy = Empty.troy
+Bleeding_glb2_tar.troy = Empty.troy
+Hungeringstrike_tar.troy = Empty.troy
+Tristanabasicattack_tar.troy = Empty.troy
+Tristanabasicattack_mis.troy = Empty.troy
+Bustershot_mis.troy = Empty.troy
+Bustershot_tar.troy = Empty.troy
+Minotaurbasicattack_bld_tar.troy = Empty.troy
+Rendingshot2_mis.troy = Empty.troy
+Rendingshot_mis.troy = Empty.troy
+Spikebullet.troy = Empty.troy
+Bloodscentsniff_cas.troy = Empty.troy
+Bloodslash.troy = Empty.troy
+Chogath_basic_attack_01.troy = Empty.troy
+Cursebandages.troy = Empty.troy
+Feast_tar.troy = Empty.troy
+Backstab_tar.troy = Empty.troy
+Poisonhit_tar.troy = Empty.troy
+katarina_basicAttack_tar.troy = Empty.troy
+dr_mundo_infected_cleaver_tar.troy=dr_mundo_infected_cleaver_tar_bloodless.troy
+katarina_shadowStep_tar.troy=Empty.troy
+nidalee_javelinToss_tar.troy=nidalee_javelinToss_tar_bloodless.troy
+nidalee_cougar_takedown_tar.troy=Empty.troy
+evelyn_Hate_tar.troy = Empty.troy
+evelyn_ravage_tar.troy = Empty.troy  
+heimerdinger_basicattack_tar.troy = Empty.troy
+dr_mundo_masochism_cas.troy = dr_mundo_masochism_cas_goa_bloodless.troy
+dr_mundo_sadism_cas_02.troy = dr_mundo_sadism_cas_02_goa_bloodless.troy
+dr_mundo_as_mundo_infected_cleaver_tar.troy = dr_mundo_as_mundo_infected_cleaver_tar_bloodless.troy
+wolfman_bloodscent_activate_blood_buff_02.troy = Empty.troy
+wolfman_bloodscent_activate_blood_buff.troy = Empty.troy
+wolfman_bloodscent_marker.troy = wolfman_bloodscent_marker_goa_bloodless.troy
+nassus_basicAttack_tar.troy = Empty.troy
+garen_damacianJustice_tar.troy = garen_damacianJustice_tar_goa_bloodless.troy
+garen_decisiveStrike_tar_02.troy = Empty.troy
+garen_keeper0fPeace_tar_01.troy = garen_keeper0fPeace_tar_01_goa_bloodless.troy
+jax_leapstrike_tar.troy=jax_leapstrike_tar_bloodless.troy
+akali_shadowSwipe_tar.troy = akali_shadowSwipe_tar_goa_bloodless.troy
+akali_shadowDance_tar.troy = akali_shadowDance_tar_goa_bloodless.troy
+olaf_viciousStrikes_axes_blood.troy = olaf_viciousStrikes_axes_goa_bloodless.troy
+olaf_recklessSwing_tar_04.troy = olaf_recklessSwing_tar_04_goa_bloodless.troy
+xenZiou_ChainAttack_02.troy = xenZiou_ChainAttack_02_bloodless.troy
+xenZiou_ChainAttack_01.troy = xenZiou_ChainAttack_01_bloodless.troy
+xenZiou_utl_tar.troy = xenZiou_utl_tar_bloodless.troy
+bloodball.troy = bloodball_bloodless.troy
+vampheal.troy = vampheal_bloodless.troy
+vladbasicattack_mis.troy = vladbasicattack_mis_bloodless.troy
+vladbasicattack_tar.troy = vladbasicattack_tar_bloodless.troy
+
+vladtransfusion_cas.troy = vladtransfusion_cas_bloodless.troy
+vladtransfusion_tar.troy = vladtransfusion_tar_bloodless.troy
+vladtransfusionheal_mis.troy = vladtransfusionheal_mis_bloodless.troy
+
+VladSanguinePool_buf.troy = VladSanguinePool_buf_bloodless.troy
+
+vladtidesofblood_cas.troy = vladtidesofblood_cas_bloodless.troy
+vladtidesofblood_mis.troy = vladtidesofblood_mis_bloodless.troy
+vladtidesofblood_tar.troy = vladtidesofblood_tar_bloodless.troy
+vladtidesofbloodheart_mis.troy = vladtidesofbloodheart_mis_bloodless.troy
+
+vladhemoplague_nova.troy = vladhemoplague_nova_bloodless.troy
+vladhemoplague_proc.troy = vladhemoplague_proc_bloodless.troy
+vladhemoplague_tar.troy = vladhemoplague_tar_bloodless.troy
+
+vladdeath.troy = vladdeath_bloodless.troy
+
+missFortune_richochet_mis_02.troy = missFortune_richochet_mis_02_bloodless.troy
+missFortune_richochet_tar_second.troy = missFortune_richochet_tar_second_bloodless.troy
+missFortune_richochet_tar_first.troy = missFortune_richochet_tar_first_bloodless.troy
+
+irelia_equilibriumStrike_tar_02.troy = irelia_equilibriumStrike_tar_02_bloodless.troy
+
+OrianaBasicAttack_tar.troy = Empty.troy
+
+yorick_ravenousGhoul_basickAttack_tar.troy = Empty.troy
+yorick_ravenousGhoul_cas_tar.troy = Empty.troy
+yorick_ravenousGhoul_idle_03.troy = yorick_ravenousGhoul_idle_03_bloodless.troy
+yorick_ravenousGhoul_idle_02.troy = yorick_ravenousGhoul_idle_02_bloodless.troy
+yorick_ravenousGhoul_idle.troy = yorick_ravenousGhoul_idle_bloodless.troy
+yorick_ravenousGhoul_death.troy = yorick_ravenousGhoul_death_bloodless.troy
+
+monkeyKing_Q_unit_tar.troy = monkeyKing_Q_unit_tar_bloodless.troy
+monkeyKing_decoy_tar.troy = monkeyKing_decoy_tar_bloodless.troy
+monkey_king_ult_unit_tar.troy = monkey_king_ult_unit_tar_bloodless.troy
+monkey_king_crushingBlow_tar.troy = monkey_king_crushingBlow_tar_bloodless.troy
+
+
+skarner_ult_tar_02.troy = skarner_ult_tar_02_bloodless.troy 
+skarner_ult_tar_03.troy = skarner_ult_tar_03_bloodless.troy
+
+talon_ult_tar.troy = talon_ult_tar_bloodless.troy
+talon_Q_bleed.troy = talon_Q_bleed_bloodless.troy
+talon_Q_bleed_indicator.troy = talon_Q_bleed_indicator_bloodless.troy
+talon_E_tar.troy = talon_E_tar_bloodless.troy
+talon_w_tar.troy = talon_w_tar_bloodless.troy
+
+
+exile_W_tar_02.troy = exile_W_tar_02_bloodless.troy
+exile_ult_mis_tar_minion.troy = exile_ult_mis_tar_minion_bloodless.troy
+exile_Q_tar_01.troy = exile_Q_tar_01_bloodless.troy
+exile_Q_tar_02.troy = exile_Q_tar_02_bloodless.troy
+exile_Q_tar_03.troy = exile_Q_tar_03_bloodless.troy
+exile_Q_tar_04.troy = exile_Q_tar_04_bloodless.troy
+
+VolibearW_tar.troy = VolibearW_tar_bloodless.troy

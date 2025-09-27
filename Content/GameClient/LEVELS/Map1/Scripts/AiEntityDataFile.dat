@@ -1,0 +1,145 @@
+##############################################################################################################
+; start a line with a semicolon for a comment
+# start a line with a # for a comment
+##############################################################################################################
+##############################################################################################################
+[UniqueName]			[SkinName]				[Project Name]	[Tag in Project ]
+##############################################################################################################
+
+#=================================================================================
+<CLASSIC> # GAME MODE
+#=================================================================================
+
+#_______________________________
+{MATCHED_GAME} # GAME TYPE
+
+[Champions]
+Alistar				Alistar					AI_Entity		Alistar
+Amumu				Amumu					AI_Entity		Amumu
+Annie				Annie					AI_Entity		Annie
+Ashe				Ashe					AI_Entity		Ashe
+Blitzcrank			Blitzcrank				AI_Entity		Blitzcrank
+Brand				Brand					AI_Entity		Brand
+Caitlyn				Caitlyn					AI_Entity		Caitlyn
+Cassiopeia			Cassiopeia				AI_Entity		Cassiopeia
+Chogath				Chogath					AI_Entity		Chogath
+DrMundo				DrMundo					AI_Entity		DrMundo
+Ezreal				Ezreal					AI_Entity		Ezreal
+Fiddlesticks		Fiddlesticks			AI_Entity		Fiddlesticks
+Galio				Galio					AI_Entity		Galio
+Garen				Garen					AI_Entity		Garen
+Graves				Graves					AI_Entity		Graves
+Irelia				Irelia					AI_Entity		Irelia
+Jax					Jax						AI_Entity		Jax
+Karthus				Karthus					AI_Entity		Karthus
+Kayle				Kayle					AI_Entity		Kayle
+KogMaw				KogMaw					AI_Entity		KogMaw
+Leona				Leona					AI_Entity		Leona
+Lux					Lux						AI_Entity		Lux
+Malphite			Malphite				AI_Entity		Malphite
+Malzahar			Malzahar				AI_Entity		Malzahar
+MasterYi			MasterYi				AI_Entity		MasterYi
+Maokai				Maokai					AI_Entity		Maokai
+MissFortune			MissFortune				AI_Entity		MissFortune
+MonkeyKing			MonkeyKing				AI_Entity		MonkeyKing
+Morgana				Morgana					AI_Entity		Morgana
+Nasus				Nasus					AI_Entity		Nasus
+Nidalee				Nidalee					AI_Entity		Nidalee
+Nocturne			Nocturne				AI_Entity		Nocturne
+Nunu				Nunu					AI_Entity		Nunu
+Poppy				Poppy					AI_Entity		Poppy
+Rammus				Rammus					AI_Entity		Rammus
+Renekton			Renekton				AI_Entity		Renekton
+Ryze				Ryze					AI_Entity		Ryze
+Shen				Shen					AI_Entity		Shen
+Shyvana				Shyvana					AI_Entity		Shyvana
+Sion				Sion					AI_Entity		Sion
+Sivir				Sivir					AI_Entity		Sivir
+Sona				Sona					AI_Entity		Sona
+Soraka				Soraka					AI_Entity		Soraka
+Swain				Swain					AI_Entity		Swain
+Talon				Talon					AI_Entity		Talon
+Taric				Taric					AI_Entity		Taric
+Tristana			Tristana				AI_Entity		Tristana
+Trundle				Trundle					AI_Entity		Trundle
+Tryndamere			Tryndamere				AI_Entity		Tryndamere
+Udyr				Udyr					AI_Entity		Udyr
+Urgot				Urgot					AI_Entity		Urgot
+Vladimir			Vladimir				AI_Entity		Vladimir
+Warwick				Warwick					AI_Entity		Warwick
+XinZhao				XinZhao					AI_Entity		XinZhao
+Yorick				Yorick					AI_Entity		Yorick
+Ziggs				Ziggs					AI_Entity		Ziggs
+Zilean				Zilean					AI_Entity		Zilean
+
+#________________________________
+{CUSTOM_GAME} # GAME TYPE
+Annie				Annie					AI_Entity		Annie
+Ashe				Ashe					AI_Entity		Ashe
+Chogath				Chogath					AI_Entity		Chogath
+Fiddlesticks		Fiddlesticks			AI_Entity		Fiddlesticks
+Garen				Garen					AI_Entity		Garen
+Graves				Graves					AI_Entity		Graves
+Leona				Leona					AI_Entity		Leona
+Lux					Lux						AI_Entity		Lux
+Malphite			Malphite				AI_Entity		Malphite
+Malzahar			Malzahar				AI_Entity		Malzahar
+MasterYi			MasterYi				AI_Entity		MasterYi
+MissFortune			MissFortune				AI_Entity		MissFortune
+MonkeyKing			MonkeyKing				AI_Entity		MonkeyKing
+Morgana				Morgana					AI_Entity		Morgana
+Nasus				Nasus					AI_Entity		Nasus
+Nunu				Nunu					AI_Entity		Nunu
+Renekton			Renekton				AI_Entity		Renekton
+Ryze				Ryze					AI_Entity		Ryze
+Shen				Shen					AI_Entity		Shen
+Shyvana				Shyvana					AI_Entity		Shyvana
+Sivir				Sivir					AI_Entity		Sivir
+Sona				Sona					AI_Entity		Sona
+Soraka				Soraka					AI_Entity		Soraka
+Swain				Swain					AI_Entity		Swain
+Taric				Taric					AI_Entity		Taric
+Tristana			Tristana				AI_Entity		Tristana
+Trundle				Trundle					AI_Entity		Trundle
+Warwick				Warwick					AI_Entity		Warwick
+XinZhao				XinZhao					AI_Entity		XinZhao
+
+# TEST BOTS
+;GothAnnie				Annie					AI_Entity		Annie
+;EasyAnnie				Annie					AI_Entity		Annie
+;SiyangAnnie			Annie					AI_Entity		Annie
+
+[Minions]
+;Blue_Minion_Basic		Blue_Minion_Basic		AI_Entity		Minion
+;Blue_Minion_Healer		Blue_Minion_Healer		AI_Entity		Minion
+;Blue_Minion_MechCannon	Blue_Minion_MechCannon	AI_Entity		Minion
+;Blue_Minion_MechMelee	Blue_Minion_MechMelee	AI_Entity		Minion
+;Blue_Minion_Wizard		Blue_Minion_Wizard		AI_Entity		Minion
+;Red_Minion_Basic		Red_Minion_Basic		AI_Entity		Minion
+;Red_Minion_Healer		Red_Minion_Healer		AI_Entity		Minion
+;Red_Minion_MechCannon	Red_Minion_MechCannon	AI_Entity		Minion
+;Red_Minion_MechMelee	Red_Minion_MechMelee	AI_Entity		Minion
+;Red_Minion_Wizard		Red_Minion_Wizard		AI_Entity		Minion
+
+[Creatures]
+;AnnieTibbers				AnnieTibbers						AI_Entity		Minion
+
+
+
+
+#=================================================================================
+<TUTORIAL> # GAME MODE
+#=================================================================================
+
+#________________________________
+{TUTORIAL_GAME, MATCHED_GAME} # GAME TYPE  **MATCHED_GAME is included for Single Player Tool compatibility**
+
+Annie					Annie					AI_Entity		Annie_BT
+Malphite				Malphite				AI_Entity		Malphite_BT
+MasterYi				MasterYi				AI_Entity		MasterYi_BT
+Nasus					Nasus					AI_Entity		Nasus_BT
+Shen					Shen					AI_Entity		Shen_BT
+Sivir					Sivir					AI_Entity		Sivir_BT
+Soraka					Soraka					AI_Entity		Soraka_BT
+
+##############################################################################################################

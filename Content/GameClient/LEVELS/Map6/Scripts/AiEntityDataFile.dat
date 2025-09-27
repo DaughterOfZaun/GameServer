@@ -1,0 +1,78 @@
+##############################################################################################################
+; start a line with a semicolon for a comment
+# start a line with a # for a comment
+##############################################################################################################
+##############################################################################################################
+[UniqueName]			[SkinName]				[Project Name]	[Tag in Project ]
+##############################################################################################################
+
+#=================================================================================
+<CLASSIC> # GAME MODE
+#=================================================================================
+
+#_______________________________
+{MATCHED_GAME} # GAME TYPE
+
+[Champions]
+Annie					Annie					AI_Entity		Annie
+Ashe					Ashe					AI_Entity		Ashe
+Chogath					Chogath					AI_Entity		Chogath
+MissFortune				MissFortune				AI_Entity		MissFortune
+Nunu					Nunu					AI_Entity		Nunu
+Renekton				Renekton				AI_Entity		Renekton
+Ryze					Ryze					AI_Entity		Ryze
+Shen					Shen					AI_Entity		Shen
+Soraka					Soraka					AI_Entity		Soraka
+Taric					Taric					AI_Entity		Taric
+Trundle					Trundle					AI_Entity		Trundle
+Warwick					Warwick					AI_Entity		Warwick
+
+#________________________________
+{PRACTICE_GAME} # GAME TYPE
+Annie					Annie					AI_Entity		Annie_BT
+Malphite				Malphite				AI_Entity		Malphite_BT
+MasterYi				MasterYi				AI_Entity		MasterYi_BT
+Nasus					Nasus					AI_Entity		Nasus_BT
+Shen					Shen					AI_Entity		Shen_BT
+Sivir					Sivir					AI_Entity		Sivir_BT
+Soraka					Soraka					AI_Entity		Soraka_BT
+
+# TEST BOTS
+;GothAnnie				Annie					AI_Entity		Annie
+;EasyAnnie				Annie					AI_Entity		Annie
+;SiyangAnnie			Annie					AI_Entity		Annie
+
+[Minions]
+;Blue_Minion_Basic		Blue_Minion_Basic		AI_Entity		Minion
+;Blue_Minion_Healer		Blue_Minion_Healer		AI_Entity		Minion
+;Blue_Minion_MechCannon	Blue_Minion_MechCannon	AI_Entity		Minion
+;Blue_Minion_MechMelee	Blue_Minion_MechMelee	AI_Entity		Minion
+;Blue_Minion_Wizard		Blue_Minion_Wizard		AI_Entity		Minion
+;Red_Minion_Basic		Red_Minion_Basic		AI_Entity		Minion
+;Red_Minion_Healer		Red_Minion_Healer		AI_Entity		Minion
+;Red_Minion_MechCannon	Red_Minion_MechCannon	AI_Entity		Minion
+;Red_Minion_MechMelee	Red_Minion_MechMelee	AI_Entity		Minion
+;Red_Minion_Wizard		Red_Minion_Wizard		AI_Entity		Minion
+
+[Creatures]
+;AnnieTibbers				AnnieTibbers						AI_Entity		Minion
+
+
+
+
+#=================================================================================
+<TUTORIAL> # GAME MODE
+#=================================================================================
+
+#________________________________
+{TUTORIAL_GAME, MATCHED_GAME} # GAME TYPE  **MATCHED_GAME is included for Single Player Tool compatibility**
+
+Annie					Annie					AI_Entity		Annie_BT
+Malphite				Malphite				AI_Entity		Malphite_BT
+MasterYi				MasterYi				AI_Entity		MasterYi_BT
+Nasus					Nasus					AI_Entity		Nasus_BT
+Shen					Shen					AI_Entity		Shen_BT
+Sivir					Sivir					AI_Entity		Sivir_BT
+Soraka					Soraka					AI_Entity		Soraka_BT
+
+##############################################################################################################

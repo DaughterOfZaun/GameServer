@@ -1,0 +1,76 @@
+[MaterialBegin]
+Name= defaultShader
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 0
+Color24= 255 0 0
+[MaterialEnd]
+
+[MaterialBegin]
+Name= base_polySurfaceMapGeoMesh1SG
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= PRJ_CyberStand_01_diffuse.dds
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= polySurfaceMapGeoMesh1292SG1
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= PRJ_Streak_01.dds
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= polySurfaceMapGeoMesh780_1SG
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= prj_ground_center.dds
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= PRJ_Ground_LeftOutside_inst
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= prj_ground_left_outside.dds
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= PRJ_Ground_LeftOutside_inst
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= prj_ground_left_outside_specgloss.dds
+Color24= 204 204 204
+[MaterialEnd]

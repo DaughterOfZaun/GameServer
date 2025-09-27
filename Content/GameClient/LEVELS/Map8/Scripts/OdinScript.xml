@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script Type="Map" SubType="Quest">
+  <BTInstance Type="PrimaryQuest" Name="CapturePointManager">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="CapturePointManager" />
+      <Parameter Name="Enabled" Value="True" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="ScoreboardPrototypeManager">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="ScoreboardPrototypeManager" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="OdinOpeningCeremony">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="OdinOpeningCeremony" />
+      <Parameter Name="Enabled" Value="True" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+</Script>

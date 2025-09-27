@@ -1,0 +1,40 @@
+##########################################################################################################################
+; start a line with a semicolon for a comment
+# start a line with a # for a comment
+##########################################################################################################################
+
+##########################################################################################################################
+[ Mission Topic name ]		[ Mission project Name ]	 [Tag in Project ]	[ Mission base Priority ] 
+##########################################################################################################################
+
+<CLASSIC> # GAME MODE
+#_______________________________
+{MATCHED_GAME} # GAME TYPE
+
+BARON				AI_Mission			NeutralMinion				10
+BOSS				AI_Mission			PushMission					10
+KILL				AI_Mission			KillChampionMission					15
+PUSH				AI_Mission			PushMission					2
+DEFEND				AI_Mission			PushMission					2
+SUPPORT				AI_Mission			WaitInBase					2
+
+#_______________________________
+{CUSTOM_GAME} # GAME TYPE
+BARON				AI_Mission			NeutralMinion				10
+BOSS				AI_Mission			PushMission					10
+KILL				AI_Mission			PushMission					15
+PUSH				AI_Mission			BasicTutorialPushMission	2
+DEFEND				AI_Mission			PushMission					2
+SUPPORT				AI_Mission			WaitInBase					2
+
+<TUTORIAL> # GAME MODE
+#_______________________________
+{TUTORIAL_GAME,MATCHED_GAME} # GAME TYPE  **MATCHED_GAME is included for Single Player Tool compatibility**
+
+PUSH				AI_Mission			BasicTutorialPushMission	2
+BARON				AI_Mission			NeutralMinion				10
+BOSS				AI_Mission			PushMission					10
+KILL				AI_Mission			PushMission					15
+DEFEND				AI_Mission			PushMission					2
+
+##########################################################################################################################

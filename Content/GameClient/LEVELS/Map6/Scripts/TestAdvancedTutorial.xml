@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script Type="Map" SubType="Quest">
+  <BTInstance Type="PrimaryQuest" Name="DebugQuest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="DebugQuest" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="NodeTest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="NodeTest" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="MinionKillCountTest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="MinionKillCountTest" />
+      <Parameter Name="Enabled" Value="True" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="TipTest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="TipTest" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="FMODCallbackTest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="FMODCallbackTest" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="CameraLockingTest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="CameraLockingTest" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="AreaTriggerTest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="AreaTriggerTest" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="PrimaryQuest" Name="RespawnPointTest">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="RespawnPointTest" />
+      <Parameter Name="Enabled" Value="True" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+  <BTInstance Type="Tip" Name="DynamicTestTree">
+    <BehaviorTreeParameters>
+      <Parameter Name="BehaviorTree" Value="DynamicTestTree" />
+      <Parameter Name="Enabled" Value="False" />
+    </BehaviorTreeParameters>
+  </BTInstance>
+</Script>

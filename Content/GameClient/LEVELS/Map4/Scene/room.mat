@@ -1,0 +1,1052 @@
+[MaterialBegin]
+Name= lambert1
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert70
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Wall_Of_Grass
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Nexus_order_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Nexus_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Nexus_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Nexxus_Chaos_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Nexus_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Chaos_Nexus_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= same_lambert2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Inhibitor_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Inhibitor_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Chaos_inhibitor_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Inhibitor_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Chaos_Inhibitor_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= grass_ground_new_dark_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= grass_ground_new_dark.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__pasted__shop_base_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= shop_base.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= itemshop2:lambert4
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= shop_trol_prop.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert149
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_steps.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magic_stepsGrassBlend_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_stepsGrassBlend.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__lambert122
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_mushrooms_blue.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:magiclevel_pan02_lambert26
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_mushrooms01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:magiclevel_pan02_pasted__lambert2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= mashroom_02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:magiclevel_pan02_lambert32
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_trees04.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert154
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_trees02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert153
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_trees01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magiclevel_pan05:magiclevel_pan06:grass:lambert2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grass07.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert157
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_cauldron.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert186
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grassNotDecal.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert148
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_wall01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__lambert125
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_wall05.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__lambert7SG2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= rock_uv1.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert178
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_wall_purple.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= rockwall1:zh_ground_lambert3SG
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= rock_uv2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0925:jinjing
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_vine01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0925:aaa_pasted__lambert134
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grass02_alpha.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= rock_only:lambert7SG1
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= rock_uv1.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= rock_only:rockwall1:zh_ground_lambert3SG
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= rock_uv2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert141
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grass_ground_blend2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__lambert144
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_03_al3.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__lambert143
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_01_al3.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert163
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grass04.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert152
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grass01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:aaa_pasted__lambert134
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grass02_alpha.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__lambert142
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_02_al3.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert161
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_purple_al.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:magiclevel_pan02_green_Al2
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grass01_alpha.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert167
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_nexus_stoneBase_b.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert168
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_turret_stoneBase.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__tutorial_grass_ground_blend3_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= tutorial_grass_ground_blend3.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert173
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_bluePath2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magic_blueRoots_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_blueRoots.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert181
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_tree_vines_alpha.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magic_burn2_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_burn2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magic_brun4_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_burn4.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magic_burn3_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_burn3.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magic_inhibitor_base_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_inhibitor_stoneBase.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert155
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_blue.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert144
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_06.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert145
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_way.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert147
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magic_grasstile_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_grasstile.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert146
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert142
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_blue.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert143
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_green.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert185
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_purpleRootTile.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__zh_jingji_lambert17
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_purple_wlf.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__jinjing2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_vine01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert164
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_stone torch.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert179
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_light_purple.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__qiu2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_object02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert169
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_light.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert160
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_object01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= only:lambert2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground_purple_wlf.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__magiclevel_pan02_pasted__lambert4
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= mashroom_02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__lambert123
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= blue_vine.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magiclevel_forest030:pasted__Material__586
+Flags= texture_gouraud_
+EmissiveColor= 0 0 -2147483648
+UVScroll = 1.7444e-036 2.56244e-019
+DisableBackfaceCulling = 1
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 0
+Color24= 0 0 0
+[MaterialEnd]
+
+[MaterialBegin]
+Name= pasted__magiclevel_pan02_lambert37
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_trees04.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= magiclevel_forest029:pasted_____Default9
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 1.7444e-036 2.56397e-019
+DisableBackfaceCulling = 1
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 0
+Color24= 0 -2147483648 0
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert156
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_stone torch.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:qiu
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_object02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:lambert26
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_mushrooms_blue.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:lambert30
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= blue_vine.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= only:lambert4
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_wall05.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wei_0924:magiclevel_pan02_lambert31
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_trees03.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert151
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_base.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert150
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_ground.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert180
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= magic_base_purple.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Wall_of_Grass
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= WallOfGrass.tga
+Color24= 204 204 204
+[MaterialEnd]
+

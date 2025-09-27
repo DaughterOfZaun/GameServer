@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution Name="OdinScript" SolutionType="Quest" DataPath=".\LEVELS\Map8\Scripts\OdinScript.xml" Validity="Valid">
+  <SolutionItem Type="PrimaryQuest" Name="CapturePointManager">
+    <Description></Description>
+  </SolutionItem>
+  <SolutionItem Type="PrimaryQuest" Name="ScoreboardPrototypeManager">
+    <Description></Description>
+  </SolutionItem>
+  <SolutionItem Type="PrimaryQuest" Name="OdinOpeningCeremony">
+    <Description></Description>
+  </SolutionItem>
+</Solution>

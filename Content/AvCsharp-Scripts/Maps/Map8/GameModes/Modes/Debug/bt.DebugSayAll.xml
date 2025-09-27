@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BehaviorTrees>
+  <BehaviorTree Name="Modes.Dominion.Debug.DebugSayAll">
+    <Parameters>
+      <Parameter Name="Msg" VariableType="Reference, Value" ParameterType="String" Default="" Optional="false">
+        <Description></Description>
+      </Parameter>
+    </Parameters>
+    <Node Type="Sequence" Name="Sequence">
+      <Parameters />
+      <Children>
+        <Node Type="GetTurret" Name="GetTurret">
+          <Parameters>
+            <Parameter Name="Team" Value="TEAM_CHAOS" VariableType="Value" />
+            <Parameter Name="Lane" Value="0" VariableType="Value" />
+            <Parameter Name="Position" Value="1" VariableType="Value" />
+            <OutParameter Name="Turret" Value="ChaosShrineTurret" ReferenceType="AttackableUnit" />
+          </Parameters>
+        </Node>
+        <Node Type="GetTurret" Name="GetTurret">
+          <Parameters>
+            <Parameter Name="Team" Value="TEAM_ORDER" VariableType="Value" />
+            <Parameter Name="Lane" Value="0" VariableType="Value" />
+            <Parameter Name="Position" Value="1" VariableType="Value" />
+            <OutParameter Name="Turret" Value="OrderShrineTurret" ReferenceType="AttackableUnit" />
+          </Parameters>
+        </Node>
+        <Node Type="Sequence" Name="Temp_Announcement">
+          <Parameters />
+          <Children>
+            <Node Type="GetChampionCollection" Name="GetChampionCollection">
+              <Parameters>
+                <OutParameter Name="Output" Value="ChampionCollection" ReferenceType="Obj_AI_HeroCollection" />
+              </Parameters>
+            </Node>
+            <Node Type="IterateOverAllDecorator" Name="IterateOverAllDecorator">
+              <Parameters>
+                <Parameter Name="Collection" Value="ChampionCollection" VariableType="Reference" ReferenceType="Obj_AI_HeroCollection" />
+                <OutParameter Name="Output" Value="LocalHero" ReferenceType="AttackableUnit" />
+              </Parameters>
+              <Children>
+                <Node Type="Sequence" Name="Sequence">
+                  <Parameters />
+                  <Children>
+                    <Node Type="Say" Name="SayStuff">
+                      <Parameters>
+                        <Parameter Name="Unit" Value="LocalHero" VariableType="Reference" ReferenceType="AttackableUnit" />
+                        <Parameter Name="String" Value="Msg" VariableType="Reference" ReferenceType="String" />
+                      </Parameters>
+                    </Node>
+                  </Children>
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+  </BehaviorTree>
+</BehaviorTrees>

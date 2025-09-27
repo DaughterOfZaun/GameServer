@@ -1,0 +1,39 @@
+##############################################################################################################
+; start a line with a semicolon for a comment
+# start a line with a # for a comment
+##############################################################################################################
+##############################################################################################################
+[UniqueName]	[SkinName]		[Project Name]	[Tag in Project ]
+##############################################################################################################
+# New format
+<ODIN> # GAME MODE
+{MATCHED_GAME, PRACTICE_GAME, TUTORIAL_GAME}
+
+# [Champions]
+Annie			Annie				AI_Entity		Annie
+
+# [Structures]
+crystal_platform	crystal_platform		AI_Entity		OdinNeutralGuardian
+OdinNeutralGuardian	OdinNeutralGuardian		AI_Entity		OdinGuardian
+#OdinOrderGuardian	OdinOrderGuardian		AI_Entity		OdinTower
+#OdinChaosGuardian	OdinChaosGuardian		AI_Entity		OdinTower
+OdinOrderGuardian	OdinOrderGuardian		AI_Entity		OdinGuardian
+OdinChaosGuardian	OdinChaosGuardian		AI_Entity		OdinGuardian
+
+
+
+
+# [Minions]
+OdinGolemBomb		OdinGolemBomb			AI_Entity		OdinGolemBomb
+OdinNeutralGuardian	OdinNeutralGuardian		AI_Entity		OdinGuardian
+# [Creatures]
+
+
+[Note]			
+;; ----------------------------------------------------------------------------------------
+; Skill level {levelID, main BT, Spell BT}
+; SOLDIER, LIEUTENENT (HERO), CAPTAIN (HERO), GENERAL
+; Skin ID
+##############################################################################################################
+
+

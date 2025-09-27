@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BehaviorTrees>
+  <BehaviorTree Name="Modes.Dominion.Debug.DebugCircleUI">
+    <Parameters>
+      <Parameter Name="CaptureProgress" VariableType="Reference" ParameterType="Float" Default="" Optional="false">
+        <Description></Description>
+      </Parameter>
+      <Parameter Name="CaptureRadius" VariableType="Reference" ParameterType="Float" Default="" Optional="false">
+        <Description></Description>
+      </Parameter>
+      <Parameter Name="ChaosCaptureID" VariableType="Reference" ParameterType="Int" Default="" Optional="false">
+        <Description></Description>
+      </Parameter>
+      <Parameter Name="CapPointOwner" VariableType="Reference" ParameterType="TeamEnum" Default="" Optional="false">
+        <Description></Description>
+      </Parameter>
+      <Parameter Name="OrderDebugID" VariableType="Reference" ParameterType="Int" Default="" Optional="false">
+        <Description></Description>
+      </Parameter>
+      <Parameter Name="NeutralDebugID" VariableType="Reference" ParameterType="Int" Default="" Optional="false">
+        <Description></Description>
+      </Parameter>
+    </Parameters>
+    <Node Type="Selector" Name="Selector">
+      <Parameters />
+      <Children>
+        <Node Type="Sequence" Name="Order capping">
+          <Parameters />
+          <Children>
+            <Node Type="GreaterFloat" Name="GreaterFloat">
+              <Parameters>
+                <Parameter Name="LeftHandSide" Value="CaptureProgress" VariableType="Reference" ReferenceType="Float" />
+                <Parameter Name="RightHandSide" Value="0" VariableType="Value" />
+              </Parameters>
+            </Node>
+            <Node Type="DivideFloat" Name="DivideFloat">
+              <Parameters>
+                <Parameter Name="LeftHandSide" Value="CaptureProgress" VariableType="Reference" ReferenceType="Float" />
+                <Parameter Name="RightHandSide" Value="100" VariableType="Value" />
+                <OutParameter Name="Output" Value="DebugMultiplierA" ReferenceType="Float" />
+              </Parameters>
+            </Node>
+            <Node Type="MultiplyFloat" Name="MultiplyFloat">
+              <Parameters>
+                <Parameter Name="LeftHandSide" Value="DebugMultiplierA" VariableType="Reference" ReferenceType="Float" />
+                <Parameter Name="RightHandSide" Value="CaptureRadius" VariableType="Reference" ReferenceType="Float" />
+                <OutParameter Name="Output" Value="OrderDebugRadiusA" ReferenceType="Float" />
+              </Parameters>
+            </Node>
+            <Node Type="ModifyDebugCircleRadius" Name="ModifyDebugCircleRadius">
+              <Parameters>
+                <Parameter Name="DebugCircleId" Value="OrderDebugID" VariableType="Reference" ReferenceType="Int" />
+                <Parameter Name="Radius" Value="OrderDebugRadiusA" VariableType="Reference" ReferenceType="Float" />
+              </Parameters>
+            </Node>
+            <Node Type="ModifyDebugCircleRadius" Name="ModifyDebugCircleRadius">
+              <Parameters>
+                <Parameter Name="DebugCircleId" Value="ChaosCaptureID" VariableType="Reference" ReferenceType="Int" />
+                <Parameter Name="Radius" Value="0" VariableType="Value" />
+              </Parameters>
+            </Node>
+          </Children>
+        </Node>
+        <Node Type="Sequence" Name="Chaos capping">
+          <Parameters />
+          <Children>
+            <Node Type="LessFloat" Name="LessFloat">
+              <Parameters>
+                <Parameter Name="LeftHandSide" Value="CaptureProgress" VariableType="Reference" ReferenceType="Float" />
+                <Parameter Name="RightHandSide" Value="0" VariableType="Value" />
+              </Parameters>
+            </Node>
+            <Node Type="AbsFloat" Name="AbsFloat">
+              <Parameters>
+                <Parameter Name="LeftHandSide" Value="CaptureProgress" VariableType="Reference" ReferenceType="Float" />
+                <OutParameter Name="Output" Value="AbsRadiusA" ReferenceType="Float" />
+              </Parameters>
+            </Node>
+            <Node Type="DivideFloat" Name="DivideFloat">
+              <Parameters>
+                <Parameter Name="LeftHandSide" Value="AbsRadiusA" VariableType="Reference" ReferenceType="Float" />
+                <Parameter Name="RightHandSide" Value="100" VariableType="Value" />
+                <OutParameter Name="Output" Value="DebugMultiplierA" ReferenceType="Float" />
+              </Parameters>
+            </Node>
+            <Node Type="MultiplyFloat" Name="MultiplyFloat">
+              <Parameters>
+                <Parameter Name="LeftHandSide" Value="DebugMultiplierA" VariableType="Reference" ReferenceType="Float" />
+                <Parameter Name="RightHandSide" Value="CaptureRadius" VariableType="Reference" ReferenceType="Float" />
+                <OutParameter Name="Output" Value="ChaosDebugRadiusA" ReferenceType="Float" />
+              </Parameters>
+            </Node>
+            <Node Type="ModifyDebugCircleRadius" Name="ModifyDebugCircleRadius">
+              <Parameters>
+                <Parameter Name="DebugCircleId" Value="ChaosCaptureID" VariableType="Reference" ReferenceType="Int" />
+                <Parameter Name="Radius" Value="ChaosDebugRadiusA" VariableType="Reference" ReferenceType="Float" />
+              </Parameters>
+            </Node>
+            <Node Type="ModifyDebugCircleRadius" Name="ModifyDebugCircleRadius">
+              <Parameters>
+                <Parameter Name="DebugCircleId" Value="OrderDebugID" VariableType="Reference" ReferenceType="Int" />
+                <Parameter Name="Radius" Value="0" VariableType="Value" />
+              </Parameters>
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+  </BehaviorTree>
+</BehaviorTrees>

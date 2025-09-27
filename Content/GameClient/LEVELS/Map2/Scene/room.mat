@@ -1,0 +1,1108 @@
+[MaterialBegin]
+Name= lambert1
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert70
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Wall_Of_Grass
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= LakeMask01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= LakeMask01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= water_edge_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= water_edge.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Nexus_order_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Nexus_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Nexus_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Nexxus_Chaos_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Nexus_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Chaos_Nexus_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= same_lambert2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Inhibitor_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Inhibitor_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Chaos_inhibitor_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Chaos_Inhibitor_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Chaos_Inhibitor_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ground_grass_ground_new_dark_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= grass_ground_new_dark.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= OrderShrine_Mat
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Shrine_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Shrine.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ChaosShrine_Mat
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+EmissiveTexture = Shrine_Diffuse_Cmask.tga
+Opacity= 255
+Texture= Chaos_Shrine.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Nexus:lambert4
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Nexus_diff.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ground_Chaos_dirt_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Chaos_dirt.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ground_RiverBed_cliff_blend_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= RiverBed_cliff_blend.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ground_Chaos_dirt_grass_blend_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Chaos_dirt_grass_blend.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ground_grass_dirt_blend_1
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= grass_dirt_blend_1.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ground_order_dirt_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_dirt.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ground_order_tile_floor_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_tile_floor.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Tree01_md_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Tree01_md.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Tree02_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Tree02_.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Tree01_Burned_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Tree01_Burned.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= SwampTree_01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= SwampTree_01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= TreeLogFallen03_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= TreeLogFallen03.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Fence01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Fence01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Wheel01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Wheel01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= chaosGate_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= chaosGate.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= GoodStatue01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= GoodStatue01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= TorchSet01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= TorchSet01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= OrderGate_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= OrderGate.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= river_corner_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= river_corner.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Btown_Brown_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Btown_Brown.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert150
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= stone_steps.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= itemshop:lambert4
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= shop_trol_prop.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= shop_base_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= shop_base.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= TallRock02_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= TallRock02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= OrderPantheon_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= OrderPantheon.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= TreeStump02_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= TreeStump02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= stonehenge_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= stonehenge.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= stoneFace1_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= stoneFace1.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= rocks_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= rocks.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= OrderPantheonDestroyed_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= OrderPantheonDestroyed.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ChaosHouse02_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= ChaosHouse02.TGA
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Bcolumn_blue_vine_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Bcolumn_blue_vine.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert98
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= ChaosPantheon01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert2
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= shop_diffuse.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= wizard_sculpture_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= wizard_sculpture.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert138
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= blueTower_decal.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= order_tile_floor_mark1_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_tile_floor_mark2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= base_chasm3_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= base_chasm3.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= base_chasm1_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= base_chasm1.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= base_chasm2_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= base_chasm2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= order_ground_moss_patch1_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_ground_moss_patch1.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= order_ground_mix2_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_ground_mix2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= base_moss_patch1_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= base__moss_patch1.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Order_seam_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_seam.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= order_base_decal__mid_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_base_decal_mid.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= v
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= chaos_root_base_decal_mid.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= new_stone_road_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= new_stone_road.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= river_center_b_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= river_center_c.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= order_seam2_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_seam2.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= turret_stoneBase_hq_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= turret_stoneBase_hq.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= turret_stoneBase_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= turret_stoneBase.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= base_center_mark2_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= base_center_mark3.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= nexus_stoneBase_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= nexus_stoneBase.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= lambert144
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= inhibitor_stoneBase.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= order_tile_floor_border_
+Flags= texture_gouraud_ alphaop uvclamp
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= order_tile_floor_border.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Sign01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Sign01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= OrderTorch01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= OrderTorch01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Plant01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Plant01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= DryBush01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= DryBush01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= shrineVine_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= shrineVine.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= MushroomPatch02_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= MushroomPatch02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= SwampLog01_1
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= SwampLog01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Rock04_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Rock04.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ChaosFlag02_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= ChaosFlag02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= TombStone01_TombStone01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= TombStone01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ChaosSwampLog01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= ChaosSwampLog01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Flower012_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Flower012.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Chaos_stones_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= Chaos_stonesb.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= MossRock01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= MossRock01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ChaosGate01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= ChaosGate01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ChaosShrineWall02_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= ChaosShrineWall02.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= ChaosShrineWall01_
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= ChaosShrineWall01.tga
+Color24= 204 204 204
+[MaterialEnd]
+
+[MaterialBegin]
+Name= Wall_of_Grass
+Flags= texture_gouraud_
+EmissiveColor= 0 0 0
+UVScroll = 0 0
+DisableBackfaceCulling = 0
+ShaderName = Prop
+SimpleShader = 1
+Opacity= 255
+Texture= WallOfGrass.tga
+Color24= 204 204 204
+[MaterialEnd]
+

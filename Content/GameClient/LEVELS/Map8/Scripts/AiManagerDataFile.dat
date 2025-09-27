@@ -1,0 +1,40 @@
+#######################################################################################################
+; start a line with a semicolon for a comment
+# start a line with a # for a comment
+#######################################################################################################
+
+#######################################################################################################
+   [Team ID Name]              [ Manager project Name ]	[Tag in Project ]
+#######################################################################################################
+
+
+<ODIN> # GAME MODE
+#_______________________________
+{MATCHED_GAME PRACTICE_GAME} # GAME TYPE
+
+  TEAM_ORDER                    AI_Manager		OdinManager
+  TEAM_CHAOS                    AI_Manager		OdinManager
+  TEAM_NEUTRAL                  AI_Manager		OdinManager
+
+<CLASSIC> # GAME MODE
+#_______________________________
+{MATCHED_GAME} # GAME TYPE
+
+  TEAM_ORDER                    AI_Manager		Manager
+  TEAM_CHAOS                    AI_Manager		Manager
+
+#_______________________________
+{PRACTICE_GAME} # GAME TYPE
+  TEAM_ORDER                    AI_Manager		TutorialManager
+  TEAM_CHAOS                    AI_Manager		TutorialManager
+
+#  TEAM_NEUTRAL                 AI_Manager		Manager
+
+<TUTORIAL> # GAME MODE
+#_______________________________
+{TUTORIAL_GAME PRACTICE_GAME} # GAME TYPE
+
+  TEAM_ORDER                    AI_Manager		TutorialManager
+  TEAM_CHAOS                    AI_Manager		TutorialManager
+
+#######################################################################################################
